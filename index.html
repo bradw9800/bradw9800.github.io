@@ -10,6 +10,31 @@
   <title>Brad Wilson</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+        
+        td {
+            padding: 10px;
+        }
+        
+        tr {
+            border-bottom: 1px solid #e0e0e0; /* Faint horizontal line */
+        }
+
+        /* Remove vertical borders */
+        td, th {
+            border-left: none;
+            border-right: none;
+        }
+  </style>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -93,7 +118,33 @@
 	    <!-- Talks -->
             <div class="col-md-8">    
                 <h2 id="talks">Talks</h2>
-                
+		<table>
+		    <thead>
+		        <tr>
+		            <th>Date</th>
+		            <th>Title</th>
+		            <th>Event</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		        <tr>
+		            <td>2024-09-29</td>
+		            <td>Event Title 1</td>
+		            <td>Event Description 1</td>
+		        </tr>
+		        <tr>
+		            <td>2024-10-01</td>
+		            <td>Event Title 2</td>
+		            <td>Event Description 2</td>
+		        </tr>
+		        <tr>
+		            <td>2024-10-05</td>
+		            <td>Event Title 3</td>
+		            <td>Event Description 3</td>
+		        </tr>
+		    </tbody>
+		</table>
+		
                 <ul>
                 <li class="talk" words="add, your, keywords, here"><a href="#">talk 1</a> Names of the authors</li>
                 </ul>
